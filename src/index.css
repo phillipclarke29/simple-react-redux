@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -40,8 +41,4 @@ body {
 
 .buttons:hover:nth-child(3) {
     background-color: #C0DFA1;
-}
-
-.buttons:hover:nth-child(3){
-
 }

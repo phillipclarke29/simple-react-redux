@@ -8,7 +8,7 @@ import "./index.css";
 
 var destination = document.querySelector("#container");
 
-// Store
+// We create the store and pass it counter as a reducer.  We then provide store as a prop to the provider component.  Provider gives us access to the store to all components throughout the react app
 
 var store = createStore(counter,
     //Add tool to connect to chrome redux extension
