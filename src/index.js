@@ -10,7 +10,10 @@ var destination = document.querySelector("#container");
 
 // Store
 
-var store = createStore(counter);
+var store = createStore(counter,
+    //Add tool to connect to chrome redux extension
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+    );
 
 ReactDOM.render(
     <Provider store={store}>
